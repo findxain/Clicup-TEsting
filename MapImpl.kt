@@ -84,6 +84,8 @@ class MapImpl(
             map?.moveCamera(newLatLngZoom)
         }
     }
+    
+    
 }
 
 fun MapLatLng.toLatLng(): LatLng {
